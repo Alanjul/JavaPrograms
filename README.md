@@ -1,1 +1,1 @@
-This java Program repositories contains all my practiced java codes
+1st welcome project for java
