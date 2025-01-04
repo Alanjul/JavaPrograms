@@ -21,7 +21,7 @@ public class FindTheShorterPeak {
 	   {
 		   //check if we encounter any element in the stack that is greater 
 		   //or equal to current item in array, we pop that element
-		   while (!stack.empty() && stack.peek()>= arr[i])
+		   while (!stack.isEmpty() && stack.peek()>= arr[i])
 		   {
 			   stack.pop();
 		   }
