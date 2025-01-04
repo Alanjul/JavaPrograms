@@ -26,7 +26,7 @@ public class FindTheShorterPeak {
 			   stack.pop();
 		   }
 		   //if stack is empty we initialize result with -1 or the top element in stack
-		   result[i] = stack.empty() ? -1 : stack.peek();
+		   result[i] = stack.isEmpty() ? -1 : stack.peek();
 		   //Before moving on, we push current element in the array on stack
 		   stack.push(arr[i]);
 	   }
