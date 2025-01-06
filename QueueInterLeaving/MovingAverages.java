@@ -1,7 +1,7 @@
 import java.util.Queue;
 import java.util.LinkedList;
 /*sliding window problem for the moving averages
- * This problems demostrates quick decision like stock trader
+ * This problems demonstrates quick decision like stock trader
  * analyzing price movement for quick buying and selling
  * The class Moving averages calculates the averages of the
  * last k items in a stream of data
