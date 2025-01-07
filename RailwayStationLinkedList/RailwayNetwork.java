@@ -29,7 +29,7 @@ public class RailwayNetwork {
     	  //check if the list is not empty and head it'self is data to be deleted
     	  if(temp != null &&temp.data == station)
     	  {
-    		  //matches point head to next data
+    		  //point head to next data
     		  head = temp.next;
     		  return;
     		  
